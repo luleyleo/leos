@@ -23,6 +23,7 @@ modules:
     install:
       - openrgb-udev-rules
       - openssl
+      - ptyxis
       - zsh
       - neovim
       - ripgrep
@@ -34,12 +35,12 @@ modules:
       - firefox
       - firefox-langpacks
 
-  - type: systemd
-    system:
-      disabled:
-        - gdm
-      enabled:
-        - cosmic-greeter
+  # - type: systemd
+  #   system:
+  #     disabled:
+  #       - gdm
+  #     enabled:
+  #       - cosmic-greeter
 
   - type: bling
     install:
@@ -49,7 +50,7 @@ modules:
     notify: true
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
+      repo-name: flathub-system
       repo-title: "Flathub (system-wide)"
       install:
         - org.mozilla.firefox
@@ -85,7 +86,7 @@ modules:
     notify: true
     system:
       repo-url: https://dl.flathub.org/beta-repo/flathub-beta.flatpakrepo
-      repo-name: flathub-beta
+      repo-name: flathub-system-beta
       repo-title: "Flathub Beta (system-wide)"
       install:
         - org.zotero.Zotero
