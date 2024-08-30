@@ -78,16 +78,9 @@ modules:
       remove:
         - org.gnome.eog
     user:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (user)"
-
-  - type: default-flatpaks
-    notify: true
-    system:
       repo-url: https://dl.flathub.org/beta-repo/flathub-beta.flatpakrepo
-      repo-name: flathub-system-beta
-      repo-title: "Flathub Beta (system-wide)"
+      repo-name: flathub-beta
+      repo-title: "Flathub Beta (user)"
       install:
         - org.zotero.Zotero
 
