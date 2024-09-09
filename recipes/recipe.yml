@@ -17,10 +17,6 @@ modules:
       - source: system
         destination: /
 
-  - type: script
-    scripts:
-      - install_remnote.sh
-
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
@@ -49,6 +45,10 @@ modules:
   - type: bling
     install:
       - 1password
+
+  - type: script
+    scripts:
+      - install_remnote.sh
 
   - type: default-flatpaks
     notify: true

@@ -2,8 +2,11 @@
 
 set -oue pipefail
 
+echo "Installing RemNote"
+
 binaries=/usr/local/bin
 applications=/usr/local/share/applications
+icons=/usr/local/share/icons
 
 app=remnote
 src="https://backend.remnote.com/desktop/linux"
@@ -16,8 +19,8 @@ curl -L "$src" >>"$binaries/$app"
 chmod +x "$binaries/$app"
 
 # Install icon
-"$binaries/$app" --appimage-extract
-install -Dm0755 squashfs-root/usr/share/icons/hicolor/0x0/apps/*.png /usr/local/share/icons/hicolor/512x512/apps/$app.png
+"$binaries/$app" --appimage-extract >/dev/null
+install -Dm0755 "squashfs-root/usr/share/icons/hicolor/0x0/apps/$app.png" "$icons/hicolor/512x512/apps/$app.png"
 rm -rf squashfs-root
 
 # Install .desktop file
@@ -32,3 +35,9 @@ Type=Application
 MimeType=x-scheme-handler/remnote;x-scheme-handler/rn;
 Categories=Education;
 EOL
+
+ls $binaries
+ls $applications
+ls $icons
+
+echo "Finished installing RemNote"
