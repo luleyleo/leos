@@ -21,7 +21,7 @@ chmod +x "$binaries/$app"
 
 # Install icon
 "$binaries/$app" --appimage-extract >/dev/null
-install -Dm0755 "squashfs-root/usr/share/icons/hicolor/0x0/apps/$app.png" "$icons/hicolor/512x512/apps/$app.png"
+install -Dm0744 "squashfs-root/usr/share/icons/hicolor/0x0/apps/$app.png" "$icons/hicolor/512x512/apps/$app.png"
 rm -rf squashfs-root
 
 # Install .desktop file
@@ -30,7 +30,7 @@ cat >"$applications/$app.desktop" <<EOL
 Name=RemNote
 Exec=$binaries/$app --enable-features=UseOzonePlatform --ozone-platform=wayland --no-sandbox %U
 TryExec=$binaries/$app
-Icon=$app.png
+Icon=$app
 Terminal=false
 Type=Application
 MimeType=x-scheme-handler/remnote;x-scheme-handler/rn;
