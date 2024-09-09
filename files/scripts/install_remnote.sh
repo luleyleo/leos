@@ -4,9 +4,10 @@ set -oue pipefail
 
 echo "Installing RemNote"
 
-binaries=/usr/local/bin
-applications=/usr/local/share/applications
-icons=/usr/local/share/icons
+prefix=/usr
+binaries=$prefix/bin
+applications=$prefix/share/applications
+icons=$prefix/share/icons
 
 app=remnote
 src="https://backend.remnote.com/desktop/linux"
