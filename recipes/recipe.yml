@@ -17,6 +17,11 @@ modules:
       - source: system
         destination: /
 
+  - type: justfiles
+    validate: true
+    include:
+      - chezmoi.just
+
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
