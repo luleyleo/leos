@@ -25,6 +25,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/wiiznokes/cosmic-applets-unofficial/repo/fedora-%OS_VERSION%/wiiznokes-cosmic-applets-unofficial-fedora-%OS_VERSION%.repo
     install:
       - openrgb-udev-rules
       - openssl
@@ -34,6 +35,7 @@ modules:
       - ripgrep
       - fzf
       - cosmic-desktop
+      - cosmic-ext-applet-clipboard-manager
       - adw-gtk3-theme
       - rsms-inter-fonts
     remove:
