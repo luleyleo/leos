@@ -44,6 +44,12 @@ modules:
       - firefox
       - firefox-langpacks
 
+  - type: gschema-overrides
+    include:
+      - zz1-adw-gtk3.gschema.override
+      - zz1-inter.gschema.override
+      - zz1-ptyxis.gschema.override
+
   # - type: systemd
   #   system:
   #     disabled:

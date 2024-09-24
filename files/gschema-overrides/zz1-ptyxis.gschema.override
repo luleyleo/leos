@@ -1,0 +1,8 @@
+[org.gnome.Ptyxis]
+audible-bell=false
+cursor-shape='ibeam'
+font-name='FiraCode Nerd Font 11'
+use-system-font=false
+
+[org.gnome.Ptyxis.Shortcuts]
+close-tab='<Shift><Control>w'
