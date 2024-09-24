@@ -34,6 +34,7 @@ modules:
       - neovim
       - ripgrep
       - fzf
+      - wl-clipboard
       - cosmic-desktop
       - cosmic-ext-applet-clipboard-manager
       - adw-gtk3-theme
