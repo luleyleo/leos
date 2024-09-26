@@ -29,6 +29,7 @@ modules:
     install:
       - openrgb-udev-rules
       - openssl
+      - cryfs
       - ptyxis
       - zsh
       - neovim
