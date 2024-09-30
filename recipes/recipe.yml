@@ -30,6 +30,7 @@ modules:
       - openrgb-udev-rules
       - openssl
       - cryfs
+      - rclone
       - ptyxis
       - zsh
       - neovim
