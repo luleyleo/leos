@@ -38,6 +38,7 @@ modules:
       - fzf
       - wl-clipboard
       - xclip
+      - flatpak-builder
       - cosmic-desktop
       - cosmic-ext-applet-clipboard-manager
       - adw-gtk3-theme
