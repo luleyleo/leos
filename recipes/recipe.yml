@@ -70,44 +70,6 @@ modules:
     scripts:
       - install_remnote.sh
 
-  - type: default-flatpaks
-    notify: true
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub-system
-      repo-title: "Flathub (system-wide)"
-      install:
-        - org.mozilla.firefox
-        - org.mozilla.Thunderbird
-        - org.gnome.Loupe
-        - org.gnome.Calendar
-        - org.gnome.Contacts
-        - org.gnome.baobab
-        - org.gnome.Papers
-        - org.gnome.TextEditor
-        - org.fedoraproject.MediaWriter
-        - it.mijorus.gearlever
-        - com.github.tchx84.Flatseal
-        - io.gitlab.news_flash.NewsFlash
-        - com.nextcloud.desktopclient.nextcloud
-        - org.onlyoffice.desktopeditors
-        - org.openrgb.OpenRGB
-        - com.github.jeromerobert.pdfarranger
-        - net.nokyan.Resources
-        - org.signal.Signal
-        - com.spotify.Client
-        - com.teamspeak.TeamSpeak
-        - io.github.flattool.Warehouse
-        - md.obsidian.Obsidian
-      remove:
-        - org.gnome.eog
-    user:
-      repo-url: https://dl.flathub.org/beta-repo/flathub-beta.flatpakrepo
-      repo-name: flathub-beta
-      repo-title: "Flathub Beta (user)"
-      install:
-        - org.zotero.Zotero
-
   - type: fonts
     fonts:
       nerd-fonts:
