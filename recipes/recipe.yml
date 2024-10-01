@@ -21,6 +21,7 @@ modules:
     validate: true
     include:
       - chezmoi.just
+      - flatpaks.just
 
   - type: rpm-ostree
     repos:

@@ -1,17 +1,18 @@
 #!/usr/bin/bash
 
-if grep -qz 'fedora' <<< "$(flatpak remotes)"; then
-  /usr/bin/gnome-software --quit
-  /usr/lib/fedora-third-party/fedora-third-party-opt-out
-  /usr/bin/fedora-third-party disable
+if grep -qz 'fedora' <<<"$(flatpak remotes)"; then
   flatpak remote-delete fedora --force
   flatpak remote-delete fedora-testing --force
 
   # Remove flatpak apps from origin fedora
   FEDORA_FLATPAKS=$(flatpak list --app --columns=application,origin | grep -w 'fedora' | awk '{print $1}')
-  flatpak remove --system --noninteractive ${FEDORA_FLATPAKS[@]}
+  if ((${#FEDORA_FLATPAKS[@]})); then
+    flatpak remove --system --noninteractive ${FEDORA_FLATPAKS[@]}
+  fi
 
   # Remove flatpak runtimes from origin fedora
   FEDORA_FLATPAKS=$(flatpak list --runtime --columns=application,arch,branch,origin | grep -w 'fedora' | awk '{print $1"/"$2"/"$3}')
-  flatpak remove --system --noninteractive ${FEDORA_FLATPAKS[@]}
+  if ((${#FEDORA_FLATPAKS[@]})); then
+    flatpak remove --system --noninteractive ${FEDORA_FLATPAKS[@]}
+  fi
 fi
