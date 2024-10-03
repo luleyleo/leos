@@ -16,7 +16,7 @@ mkdir -p $binaries
 mkdir -p $applications
 
 # Download binary
-curl -L "$src" >>"$binaries/$app"
+curl -L "$src" >"$binaries/$app"
 chmod +x "$binaries/$app"
 
 # Install icon
