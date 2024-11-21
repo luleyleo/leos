@@ -39,6 +39,7 @@ modules:
       - fzf
       - wl-clipboard
       - xclip
+      - nautilus-python
       - flatpak-builder
       - cosmic-desktop
       - cosmic-ext-applet-clipboard-manager
