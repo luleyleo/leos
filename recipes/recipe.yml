@@ -81,7 +81,9 @@ modules:
         - JetBrainsMono
 
   - type: chezmoi
+    repository: "git@codeberg.org:luleyleo/chezmoi.git"
     all-users: false
     disable-init: true
+    disable-update: true
 
   - type: signing
