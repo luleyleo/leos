@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=distrobox-enter -n devbox -- '/usr/bin/neovide' --no-fork %F
+Exec=/usr/bin/devbox-neovide %F
 Icon=neovide
 Name=Neovide
 Keywords=Text;Editor;
