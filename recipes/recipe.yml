@@ -47,7 +47,6 @@ modules:
       - cosmic-ext-applet-clipboard-manager
       - adw-gtk3-theme
       - rsms-inter-fonts
-      - https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
     remove:
       - firefox
       - firefox-langpacks
