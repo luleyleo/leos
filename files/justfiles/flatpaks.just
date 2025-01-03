@@ -18,6 +18,7 @@ flatpak-install-defaults:
       com.spotify.Client \
       com.spotify.Client \
       com.teamspeak.TeamSpeak \
+      de.leopoldluley.Clapgrep \
       io.github.flattool.Warehouse \
       io.gitlab.news_flash.NewsFlash \
       it.mijorus.gearlever \
@@ -25,18 +26,16 @@ flatpak-install-defaults:
       net.nokyan.Resources \
       org.chromium.Chromium \
       org.fedoraproject.MediaWriter \
+      org.gnome.baobab \
       org.gnome.Calendar \
       org.gnome.Contacts \
       org.gnome.Fractal \
       org.gnome.Loupe \
       org.gnome.Papers \
       org.gnome.TextEditor \
-      org.gnome.baobab \
-      org.mozilla.Thunderbird \
       org.mozilla.firefox \
+      org.mozilla.Thunderbird \
       org.onlyoffice.desktopeditors \
       org.openrgb.OpenRGB \
       org.signal.Signal \
-      de.leopoldluley.Clapgrep
-    flatpak install --user --noninteractive flathub-beta \
       org.zotero.Zotero
