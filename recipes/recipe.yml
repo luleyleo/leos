@@ -72,7 +72,6 @@ modules:
   - type: script
     scripts:
       - install_remnote.sh
-      - install_zed.sh
 
   - type: fonts
     fonts:
