@@ -28,6 +28,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wiiznokes/cosmic-applets-unofficial/repo/fedora-%OS_VERSION%/wiiznokes-cosmic-applets-unofficial-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
     install:
       - openrgb-udev-rules
       - openssl
@@ -35,6 +36,7 @@ modules:
       - rclone
       - ptyxis
       - wezterm
+      - kitty
       - zsh
       - neovim
       - ripgrep
@@ -44,10 +46,20 @@ modules:
       - zoxide
       - nautilus-python
       - flatpak-builder
-      - cosmic-desktop
-      - cosmic-ext-applet-clipboard-manager
       - adw-gtk3-theme
       - rsms-inter-fonts
+      - cosmic-desktop
+      - cosmic-ext-applet-clipboard-manager
+      - hyprland
+      - hyprland-devel
+      - xdg-desktop-portal-hyprland
+      - hyprpaper
+      - hyprsunset
+      - hyprpolkitagent
+      - cliphist
+      - nwg-clipman
+      - waypaper
+      - dunst
     remove:
       - firefox
       - firefox-langpacks
