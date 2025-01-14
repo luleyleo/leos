@@ -60,6 +60,7 @@ modules:
       - nwg-clipman
       - waypaper
       - dunst
+      - xrdb
     remove:
       - firefox
       - firefox-langpacks
