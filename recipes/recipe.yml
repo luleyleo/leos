@@ -58,6 +58,8 @@ modules:
       - dunst
       - xrdb
       - walker
+      - blueman
+      - network-manager-applet
     remove:
       - firefox
       - firefox-langpacks
