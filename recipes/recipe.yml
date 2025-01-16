@@ -25,8 +25,6 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/wiiznokes/cosmic-applets-unofficial/repo/fedora-%OS_VERSION%/wiiznokes-cosmic-applets-unofficial-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/errornointernet/walker/repo/fedora-%OS_VERSION%/errornointernet-walker-fedora-%OS_VERSION%.repo
     install:
@@ -47,8 +45,6 @@ modules:
       - flatpak-builder
       - adw-gtk3-theme
       - rsms-inter-fonts
-      - cosmic-desktop
-      - cosmic-ext-applet-clipboard-manager
       - hyprland
       - hyprland-devel
       - xdg-desktop-portal-hyprland
