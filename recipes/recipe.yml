@@ -50,6 +50,7 @@ modules:
       - xdg-desktop-portal-hyprland
       - hyprpaper
       - hyprsunset
+      - hyprlock
       - hyprpolkitagent
       - cliphist
       - nwg-clipman
