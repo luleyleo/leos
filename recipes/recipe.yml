@@ -29,6 +29,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/wiiznokes/cosmic-applets-unofficial/repo/fedora-%OS_VERSION%/wiiznokes-cosmic-applets-unofficial-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/errornointernet/walker/repo/fedora-%OS_VERSION%/errornointernet-walker-fedora-%OS_VERSION%.repo
     install:
       - openrgb-udev-rules
       - openssl
@@ -61,6 +62,7 @@ modules:
       - waypaper
       - dunst
       - xrdb
+      - walker
     remove:
       - firefox
       - firefox-langpacks
