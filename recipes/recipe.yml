@@ -59,7 +59,6 @@ modules:
       - xrdb
       - walker
       - blueman
-      - network-manager-applet
       - darkman
     remove:
       - firefox
