@@ -36,7 +36,9 @@ modules:
       - kitty
       - zsh
       - neovim
+      - luarocks
       - ripgrep
+      - fd-find
       - fzf
       - wl-clipboard
       - xclip
