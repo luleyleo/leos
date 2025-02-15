@@ -53,7 +53,10 @@ modules:
       - hyprpaper
       - hyprsunset
       - hyprlock
+      - hypridle
       - hyprpolkitagent
+      - hyprpicker
+      - hyprshot
       - cliphist
       - nwg-clipman
       - waypaper
