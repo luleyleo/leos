@@ -28,11 +28,11 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/errornointernet/walker/repo/fedora-%OS_VERSION%/errornointernet-walker-fedora-%OS_VERSION%.repo
     install:
+      # Basics
       - openrgb-udev-rules
       - openssl
       - cryfs
-      - rclone
-      - ptyxis
+      # Terminal
       - kitty
       - zsh
       - neovim
@@ -45,8 +45,7 @@ modules:
       - zoxide
       - nautilus-python
       - flatpak-builder
-      - adw-gtk3-theme
-      - rsms-inter-fonts
+      # Hyprland
       - hyprland
       - hyprland-devel
       - xdg-desktop-portal-hyprland
@@ -54,14 +53,20 @@ modules:
       - hyprsunset
       - hyprlock
       - hyprpolkitagent
-      - cliphist
-      - nwg-clipman
       - waypaper
       - dunst
       - xrdb
       - walker
-      - blueman
+      # General Styling
       - darkman
+      - rsms-inter-fonts
+      # GTK Styling
+      - adw-gtk3-theme
+      # QT styling
+      - breeze-icon-theme
+      - plasma-breeze
+      - qqc2-breeze-style
+      - qt6ct
     remove:
       - firefox
       - firefox-langpacks
