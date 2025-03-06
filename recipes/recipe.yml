@@ -48,12 +48,14 @@ modules:
       # Hyprland
       - hyprland
       - hyprland-devel
-      - xdg-desktop-portal-hyprland
       - hyprpaper
       - hyprsunset
       - hyprlock
+      - hypridle
+      - hyprpicker
+      - hyprshot
+      - xdg-desktop-portal-hyprland
       - polkit-kde
-      - waypaper
       - dunst
       - xrdb
       - walker
