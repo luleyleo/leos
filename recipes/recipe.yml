@@ -52,7 +52,7 @@ modules:
       - hyprpaper
       - hyprsunset
       - hyprlock
-      - hyprpolkitagent
+      - polkit-kde
       - waypaper
       - dunst
       - xrdb
