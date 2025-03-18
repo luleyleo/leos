@@ -54,6 +54,7 @@ modules:
       - hypridle
       - hyprpicker
       - hyprshot
+      - wlrctl
       - xdg-desktop-portal-hyprland
       - polkit-kde
       - dunst
