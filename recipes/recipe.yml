@@ -70,6 +70,8 @@ modules:
       - plasma-breeze
       - qqc2-breeze-style
       - qt6ct
+      # Profiling
+      - sysprof
     remove:
       - firefox
       - firefox-langpacks
