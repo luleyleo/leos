@@ -51,7 +51,7 @@ modules:
       - swaylock
       - swaybg
       - swayidle
-      - dunst
+      - SwayNotificationCenter
       - xrdb
       - walker
       - xwayland-satellite
