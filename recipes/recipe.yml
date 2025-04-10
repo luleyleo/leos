@@ -39,6 +39,7 @@ modules:
       - neovim
       - luarocks
       - ripgrep
+      - lsd
       - fd-find
       - fzf
       - wl-clipboard
