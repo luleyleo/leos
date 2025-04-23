@@ -20,7 +20,6 @@ modules:
   - type: justfiles
     validate: true
     include:
-      - chezmoi.just
       - flatpaks.just
 
   - type: rpm-ostree
@@ -82,10 +81,6 @@ modules:
   - type: bling
     install:
       - 1password
-
-  - type: script
-    scripts:
-      - install_remnote.sh
 
   - type: fonts
     fonts:

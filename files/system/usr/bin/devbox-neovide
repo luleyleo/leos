@@ -1,3 +1,0 @@
-#!/usr/bin/bash
-
-distrobox-enter -n devbox -- /usr/bin/zsh -c "/usr/bin/neovide --no-fork $*"
