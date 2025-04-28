@@ -22,55 +22,58 @@ modules:
     include:
       - flatpaks.just
 
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/markupstart/xwayland-satellite/repo/fedora-%OS_VERSION%/markupstart-xwayland-satellite-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/errornointernet/walker/repo/fedora-%OS_VERSION%/errornointernet-walker-fedora-%OS_VERSION%.repo
+      copr:
+        - yalter/niri
+        - markupstart/xwayland-satellite
+        - errornointernet/walker
     install:
-      # Basics
-      - openrgb-udev-rules
-      - openssl
-      - cryfs
-      # Terminal
-      - kitty
-      - zsh
-      - neovim
-      - luarocks
-      - ripgrep
-      - lsd
-      - fd-find
-      - fzf
-      - wl-clipboard
-      - xclip
-      - zoxide
-      - nautilus-python
-      - flatpak-builder
-      # Niri
-      - niri
-      - swaylock
-      - swaybg
-      - swayidle
-      - SwayNotificationCenter
-      - xrdb
-      - walker
-      - xwayland-satellite
-      - polkit-kde
-      # General Styling
-      - darkman
-      - rsms-inter-fonts
-      # GTK Styling
-      - adw-gtk3-theme
-      # QT styling
-      - breeze-icon-theme
-      - plasma-breeze
-      - qqc2-breeze-style
-      - qt6ct
-      # Profiling
-      - sysprof
+      packages:
+        # Basics
+        - openrgb-udev-rules
+        - openssl
+        - cryfs
+        # Terminal
+        - kitty
+        - zsh
+        - neovim
+        - luarocks
+        - ripgrep
+        - lsd
+        - fd-find
+        - fzf
+        - wl-clipboard
+        - xclip
+        - zoxide
+        - nautilus-python
+        - flatpak-builder
+        # Niri
+        - niri
+        - swaylock
+        - swaybg
+        - swayidle
+        - SwayNotificationCenter
+        - xrdb
+        - walker
+        - xwayland-satellite
+        - polkit-kde
+        # General Styling
+        - darkman
+        - rsms-inter-fonts
+        # GTK Styling
+        - adw-gtk3-theme
+        # QT styling
+        - breeze-icon-theme
+        - plasma-breeze
+        - qqc2-breeze-style
+        - qt6ct
+        # Profiling
+        - sysprof
     remove:
-      - firefox
-      - firefox-langpacks
+      packages:
+        - firefox
+        - firefox-langpacks
 
   - type: gschema-overrides
     include:
