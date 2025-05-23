@@ -28,6 +28,7 @@ modules:
         - yalter/niri
         - markupstart/xwayland-satellite
         - errornointernet/walker
+        - erikreider/SwayNotificationCenter
     install:
       packages:
         # Basics
@@ -53,7 +54,7 @@ modules:
         - swaylock
         - swaybg
         - swayidle
-        - SwayNotificationCenter
+        - SwayNotificationCenter-git
         - xrdb
         - walker
         - xwayland-satellite
