@@ -51,6 +51,7 @@ modules:
         - flatpak-builder
         # Niri
         - niri
+        - waybar
         - swaylock
         - swaybg
         - swayidle
