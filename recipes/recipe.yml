@@ -29,6 +29,7 @@ modules:
         - markupstart/xwayland-satellite
         - errornointernet/walker
         - erikreider/SwayNotificationCenter
+        - tswsl1989/tswsl-wayland-extras # for gtklock
     install:
       packages:
         # Basics
@@ -63,6 +64,7 @@ modules:
         - greetd-selinux
         - greetd
         - gtkgreet
+        - gtklock
         # General Styling
         - darkman
         - rsms-inter-fonts
