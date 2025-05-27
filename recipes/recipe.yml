@@ -60,6 +60,10 @@ modules:
         - walker
         - xwayland-satellite
         - polkit-kde
+        - sway
+        - greetd-selinux
+        - greetd
+        - gtkgreet
         # General Styling
         - darkman
         - rsms-inter-fonts
