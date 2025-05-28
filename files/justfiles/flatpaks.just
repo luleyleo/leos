@@ -1,4 +1,5 @@
-fletpak-init: flatpak-remove-defaults flatpak-setup-remotes flatpak-install-defaults
+# Removes Fedora flatpak and installs core apps from Flathub
+flatpak-init: flatpak-remove-defaults flatpak-setup-remotes flatpak-install-defaults
 
 # Removes the default flatpak apps, runtimes and remotes shipped with Fedora
 flatpak-remove-defaults:
