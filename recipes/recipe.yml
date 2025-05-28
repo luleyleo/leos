@@ -43,6 +43,7 @@ modules:
         - luarocks
         - ripgrep
         - lsd
+        - bat
         - fd-find
         - fzf
         - wl-clipboard
