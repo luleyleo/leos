@@ -96,7 +96,7 @@ modules:
     fonts:
       nerd-fonts:
         - FiraCode
-        - JetBrainsMono
+        - AdwaitaMono
 
   - type: chezmoi
     repository: "git@codeberg.org:luleyleo/chezmoi.git"
