@@ -14,13 +14,13 @@ check-justfiles:
     just --unstable --fmt --check -f files/justfiles/*.just
 
 # Run bluebuild to generate the image
-build:
-    bluebuild build {{ recipe }}
+build *args:
+    bluebuild build {{ args }} {{ recipe }}
 
 # Run bluebuild to generate the container file
-generate:
-    bluebuild generate {{ recipe }} -o Containerfile
+generate *args:
+    bluebuild generate {{ args }} {{ recipe }} -o Containerfile
 
 # Run bluebuild to expand the recipe
-display:
-    bluebuild generate --display-full-recipe {{ recipe }}
+display *args:
+    bluebuild generate {{ args }} --display-full-recipe {{ recipe }}
