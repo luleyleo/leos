@@ -94,6 +94,13 @@ modules:
         - FiraCode
         - AdwaitaMono
 
+  - type: systemd
+    system:
+      disabled:
+        - gdm
+      enabled:
+        - greetd
+
   - type: chezmoi
     repository: "git@codeberg.org:luleyleo/chezmoi.git"
     all-users: false
