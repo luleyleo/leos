@@ -21,6 +21,7 @@ modules:
     validate: true
     include:
       - flatpaks.just
+      - distrobox.just
 
   - type: dnf
     repos:
