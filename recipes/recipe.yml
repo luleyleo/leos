@@ -26,6 +26,7 @@ modules:
         - errornointernet/walker
         - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
+        - pgdev/ghostty
     install:
       packages:
         # Basics
@@ -34,6 +35,7 @@ modules:
         - cryfs
         # Terminal
         - kitty
+        - ghostty
         - zsh
         - neovim
         - luarocks
