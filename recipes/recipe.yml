@@ -37,8 +37,6 @@ modules:
         - kitty
         - ghostty
         - zsh
-        - neovim
-        - luarocks
         - ripgrep
         - lsd
         - bat
@@ -47,8 +45,12 @@ modules:
         - wl-clipboard
         - xclip
         - zoxide
+        # Neovim
+        - neovim
+        - luarocks
+        # Nautilus Plugins
         - nautilus-python
-        - flatpak-builder
+        - python3-dbus
         # Niri
         - niri
         - waybar
@@ -76,6 +78,8 @@ modules:
         - qt6ct
         # Profiling
         - sysprof
+        # Development
+        - flatpak-builder
     remove:
       packages:
         - firefox
