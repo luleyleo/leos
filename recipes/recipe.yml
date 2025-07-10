@@ -24,6 +24,7 @@ modules:
         - yalter/niri
         - ulysg/xwayland-satellite
         - errornointernet/walker
+        - errornointernet/quickshell
         - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
         - pgdev/ghostty
@@ -68,6 +69,7 @@ modules:
         - greetd
         - gtkgreet
         - gtklock
+        - quickshell-git
         # General Styling
         - darkman
         - rsms-inter-fonts
