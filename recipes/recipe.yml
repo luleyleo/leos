@@ -56,7 +56,6 @@ modules:
         # Niri
         - niri
         - waybar
-        - swaylock
         - swaybg
         - swayidle
         - SwayNotificationCenter-git
