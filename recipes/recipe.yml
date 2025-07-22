@@ -28,6 +28,7 @@ modules:
         - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
         - pgdev/ghostty
+        - ublue-os/staging # for bazaar
       files:
         - https://download.opensuse.org/repositories/home:manuelschneid3r/Fedora_%OS_VERSION%/home:manuelschneid3r.repo # for albert
     install:
@@ -70,6 +71,7 @@ modules:
         - gtkgreet
         - gtklock
         - quickshell-git
+        - bazaar
         # General Styling
         - darkman
         - rsms-inter-fonts
