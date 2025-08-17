@@ -76,6 +76,7 @@ modules:
         # General Styling
         - darkman
         - rsms-inter-fonts
+        - gnu-free-mono-fonts
         # GTK Styling
         - adw-gtk3-theme
         # QT styling
