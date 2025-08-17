@@ -41,6 +41,7 @@ modules:
         - kitty
         - ghostty
         - zsh
+        - nu
         - ripgrep
         - lsd
         - bat
