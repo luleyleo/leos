@@ -29,8 +29,6 @@ modules:
         - tswsl1989/tswsl-wayland-extras # for gtklock
         - pgdev/ghostty
         - ublue-os/staging # for bazaar
-      files:
-        - https://download.opensuse.org/repositories/home:manuelschneid3r/Fedora_%OS_VERSION%/home:manuelschneid3r.repo # for albert
     install:
       packages:
         # Basics
@@ -64,7 +62,6 @@ modules:
         - SwayNotificationCenter-git
         - xrdb
         - walker
-        - albert
         - xwayland-satellite
         - polkit-kde
         - greetd-selinux
