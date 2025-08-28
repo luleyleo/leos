@@ -3,7 +3,7 @@
 name: leos
 description: This is my personal OS image.
 
-base-image: ghcr.io/ublue-os/aurora-nvidia-open
+base-image: ghcr.io/ublue-os/bluefin-nvidia-open
 image-version: 42
 
 modules:
