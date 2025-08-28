@@ -3,8 +3,8 @@
 name: leos
 description: This is my personal OS image.
 
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42
+base-image: ghcr.io/ublue-os/aurora-nvidia-open
+image-version: latest
 
 modules:
   - type: files
