@@ -27,7 +27,7 @@ modules:
         - errornointernet/quickshell
         - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
-        - pgdev/ghostty
+        #- pgdev/ghostty
         - ublue-os/packages # for bazaar
     install:
       packages:
@@ -37,7 +37,7 @@ modules:
         - cryfs
         # Terminal
         - kitty
-        - ghostty
+        #- ghostty
         - zsh
         - nu
         - ripgrep
