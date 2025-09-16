@@ -64,10 +64,12 @@ modules:
         - walker
         - xwayland-satellite
         - polkit-kde
+        - brightnessctl
         - greetd-selinux
         - greetd
         - gtkgreet
         - gtklock
+        - wlsunset
         - quickshell-git
         - bazaar
         # General Styling
