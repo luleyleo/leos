@@ -61,6 +61,7 @@ modules:
         - swayidle
         - SwayNotificationCenter-git
         - xrdb
+        - elephant # required by walker
         - walker
         - xwayland-satellite
         - polkit-kde
