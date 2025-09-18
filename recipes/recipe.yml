@@ -29,6 +29,7 @@ modules:
         - tswsl1989/tswsl-wayland-extras # for gtklock
         - scottames/ghostty
         - ublue-os/packages # for bazaar
+        - gvalkov/vicinae
     install:
       packages:
         # Basics
@@ -73,6 +74,7 @@ modules:
         - wlsunset
         - quickshell-git
         - bazaar
+        - vicinae
         # General Styling
         - darkman
         - rsms-inter-fonts
