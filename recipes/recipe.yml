@@ -23,7 +23,6 @@ modules:
       copr:
         - yalter/niri
         - ulysg/xwayland-satellite
-        - errornointernet/walker
         - errornointernet/quickshell
         - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
@@ -63,7 +62,6 @@ modules:
         - SwayNotificationCenter-git
         - xrdb
         - elephant # required by walker
-        - walker
         - xwayland-satellite
         - polkit-kde
         - brightnessctl
