@@ -72,6 +72,7 @@ modules:
         - quickshell-git
         - bazaar
         - vicinae
+        - nwg-bar
         # General Styling
         - darkman
         - rsms-inter-fonts
