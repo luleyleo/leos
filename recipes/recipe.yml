@@ -62,7 +62,7 @@ modules:
         - SwayNotificationCenter-git
         - xrdb
         - xwayland-satellite
-        - polkit-kde
+        - mate-polkit
         - brightnessctl
         - greetd-selinux
         - greetd
