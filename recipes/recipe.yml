@@ -88,6 +88,8 @@ modules:
         - sysprof
         # Development
         - flatpak-builder
+        # Android
+        - kde-connect
     remove:
       packages:
         - firefox
