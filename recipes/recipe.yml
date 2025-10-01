@@ -24,12 +24,12 @@ modules:
         - yalter/niri
         - ulysg/xwayland-satellite
         - errornointernet/quickshell
-        - erikreider/SwayNotificationCenter
         - tswsl1989/tswsl-wayland-extras # for gtklock
         - scottames/ghostty
         - ublue-os/packages # for bazaar
         - gvalkov/vicinae
     install:
+      install-weak-deps: false
       packages:
         # Basics
         - openrgb-udev-rules
@@ -56,10 +56,6 @@ modules:
         - python3-dbus
         # Niri
         - niri
-        - waybar
-        - swaybg
-        - swayidle
-        - SwayNotificationCenter-git
         - xrdb
         - xwayland-satellite
         - mate-polkit
@@ -67,12 +63,10 @@ modules:
         - greetd-selinux
         - greetd
         - gtkgreet
-        - gtklock
         - wlsunset
         - quickshell-git
         - bazaar
         - vicinae
-        - nwg-bar
         # General Styling
         - darkman
         - rsms-inter-fonts
