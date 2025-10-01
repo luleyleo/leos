@@ -45,17 +45,25 @@ modules:
         - bat
         - fd-find
         - fzf
-        - wl-clipboard
-        - xclip
         - zoxide
         # Neovim
         - neovim
+        - tree-sitter-cli
+        - xsel
+        - wl-clipboard
+        - xclip
+        - inotify-tools
         - luarocks
+        - nodejs
+        - nodejs-npm
         # Nautilus Plugins
         - nautilus-python
         - python3-dbus
         # Niri
         - niri
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-keyring
         - xrdb
         - xwayland-satellite
         - mate-polkit
@@ -84,6 +92,7 @@ modules:
         - flatpak-builder
         # Android
         - kde-connect
+        - kde-connect-nautilus
     remove:
       packages:
         - firefox
