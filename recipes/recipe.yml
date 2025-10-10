@@ -76,13 +76,10 @@ modules:
         - vicinae
         - elephant
         - walker
-        # General Styling
+        # Styling
         - darkman
-        - rsms-inter-fonts
         - gnu-free-mono-fonts
-        # GTK Styling
         - adw-gtk3-theme
-        # QT styling
         - breeze-icon-theme
         - plasma-breeze
         - qqc2-breeze-style
