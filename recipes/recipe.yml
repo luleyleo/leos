@@ -55,7 +55,7 @@ modules:
   - type: dnf
     repos:
       copr:
-        - yalter/niri
+        - yalter/niri-git
         - ulysg/xwayland-satellite
         - errornointernet/quickshell
         - scottames/ghostty
