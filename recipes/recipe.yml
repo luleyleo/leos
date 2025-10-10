@@ -145,6 +145,11 @@ modules:
         - FiraCode
         - AdwaitaMono
 
+  - type: script
+    scripts:
+      - install-noctalia-shell.sh
+      - install-noctalia-greet.sh
+
   - type: systemd
     system:
       disabled:
