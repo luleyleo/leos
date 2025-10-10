@@ -71,6 +71,7 @@ modules:
         - brightnessctl
         - greetd-selinux
         - greetd
+        - gtkgreet
         - quickshell-git
         - bazaar
         - vicinae
