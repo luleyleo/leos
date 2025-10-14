@@ -109,7 +109,18 @@ modules:
         - wlsunset
         - bazaar
         - vicinae
+        # Walker
         - elephant
+        - elephant-websearch
+        - elephant-desktopapplications
+        - elephant-providerlist
+        - elephant-symbols
+        - elephant-unicode
+        - elephant-calc
+        - elephant-clipboard
+        - elephant-files
+        - elephant-menus
+        - elephant-todo
         - walker
         # Styling
         - darkman
