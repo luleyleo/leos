@@ -107,6 +107,7 @@ modules:
         - greetd
         - gtkgreet
         - quickshell-git
+        - wlsunset
         - bazaar
         - vicinae
         - elephant
