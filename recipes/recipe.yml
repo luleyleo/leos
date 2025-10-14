@@ -105,7 +105,6 @@ modules:
         - brightnessctl
         - greetd-selinux
         - greetd
-        - gtkgreet
         - quickshell-git
         - wlsunset
         - bazaar
