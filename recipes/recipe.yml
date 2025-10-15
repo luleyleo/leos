@@ -117,6 +117,7 @@ modules:
         - elephant-symbols
         - elephant-unicode
         - elephant-calc
+        - qalculate
         - elephant-clipboard
         - elephant-files
         - elephant-menus
