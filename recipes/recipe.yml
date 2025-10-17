@@ -143,6 +143,11 @@ modules:
         - firefox
         - firefox-langpacks
 
+  - type: copy
+    from: build-source-apps
+    src: /out/bin/niri-float-sticky
+    dest: /usr/bin/
+
   - type: gschema-overrides
     include:
       - zz1-adw-gtk3.gschema.override
@@ -170,3 +175,17 @@ modules:
         - greetd
 
   - type: signing
+
+stages:
+  - name: build-source-apps
+    from: ghcr.io/ublue-os/base-main:42
+    modules:
+      - type: dnf
+        install:
+          packages:
+            - golang
+      - type: script
+        snippets:
+          - mkdir -p /out/bin
+          - env GOBIN=/out/bin go install github.com/probeldev/niri-float-sticky@latest
+          - strip /out/bin/niri-float-sticky
