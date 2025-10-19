@@ -4,7 +4,7 @@ name: leos
 description: This is my personal OS image.
 
 base-image: ghcr.io/ublue-os/bluefin-nvidia-open
-image-version: 42
+image-version: beta
 
 modules:
   - type: files
@@ -177,7 +177,7 @@ modules:
 
 stages:
   - name: build-source-apps
-    from: ghcr.io/ublue-os/base-main:42
+    from: ghcr.io/ublue-os/base-main:43
     modules:
       - type: dnf
         install:
