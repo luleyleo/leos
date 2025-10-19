@@ -56,7 +56,6 @@ modules:
     repos:
       copr:
         - yalter/niri-git
-        - ulysg/xwayland-satellite
         - errornointernet/quickshell
         - scottames/ghostty
         - gvalkov/vicinae
