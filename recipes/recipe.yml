@@ -58,7 +58,7 @@ modules:
         - yalter/niri-git
         - errornointernet/quickshell
         - scottames/ghostty
-        - gvalkov/vicinae
+        - dulikiles/vicinae
         - errornointernet/walker
         - ublue-os/packages # for bazaar
     install:
