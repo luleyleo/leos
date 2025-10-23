@@ -148,13 +148,17 @@ modules:
     src: /out/bin/niri-float-sticky
     dest: /usr/bin/
 
-  - type: gschema-overrides
-    include:
-      - zz1-adw-gtk3.gschema.override
-
   - type: bling
     install:
       - 1password
+
+  - type: brew
+    nofile-limits: true
+    brew-analytics: false
+
+  - type: gschema-overrides
+    include:
+      - zz1-adw-gtk3.gschema.override
 
   - type: fonts
     fonts:
