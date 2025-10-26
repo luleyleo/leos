@@ -159,6 +159,7 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-adw-gtk3.gschema.override
+      - zz1-adwaita-font.gschema.override
 
   - type: fonts
     fonts:
