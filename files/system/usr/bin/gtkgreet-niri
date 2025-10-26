@@ -1,3 +1,0 @@
-#!/usr/bin/sh
-
-niri --config /etc/gtkgreet/gtkgreet-niri.kdl

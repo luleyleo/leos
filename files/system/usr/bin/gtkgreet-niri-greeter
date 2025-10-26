@@ -1,4 +1,0 @@
-#!/usr/bin/sh
-
-gtkgreet --layer-shell --style /etc/gtkgreet/gtkgreet.css
-wayland-logout
