@@ -171,6 +171,7 @@ modules:
 
   - type: script
     scripts:
+      - install-app2unit.sh
       - install-noctalia-shell.sh
       - install-noctalia-greet.sh
 
