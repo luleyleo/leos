@@ -62,7 +62,6 @@ modules:
         - errornointernet/quickshell
         - scottames/ghostty
         - dulikiles/vicinae
-        - errornointernet/walker
         - alternateved/cliphist
         - ublue-os/packages # for bazaar
     install:
@@ -113,20 +112,6 @@ modules:
         - bazaar
         - vicinae
         - cliphist
-        # Walker
-        - elephant
-        - elephant-websearch
-        - elephant-desktopapplications
-        - elephant-providerlist
-        - elephant-symbols
-        - elephant-unicode
-        - elephant-calc
-        - qalculate
-        - elephant-clipboard
-        - elephant-files
-        - elephant-menus
-        - elephant-todo
-        - walker
         # Styling
         - darkman
         - gnu-free-mono-fonts
