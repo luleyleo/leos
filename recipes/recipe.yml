@@ -21,13 +21,16 @@ modules:
     configurations:
       - scope: user
         repo:
+          name: flathub
           title: Flathub (user)
       - scope: user
         repo:
+          name: flathub-beta
           title: Flathub (beta)
           url: https://flathub.org/beta-repo/flathub-beta.flatpakrepo
       - scope: system
         repo:
+          name: flathub-system
           title: Flathub (system)
         install:
           - ca.desrt.dconf-editor
