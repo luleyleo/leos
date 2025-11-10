@@ -73,13 +73,14 @@ modules:
     repos:
       copr:
         - yalter/niri-git
+        - avengemedia/dms
         - errornointernet/quickshell
         - scottames/ghostty
         - dulikiles/vicinae
         - alternateved/cliphist
         - ublue-os/packages # for bazaar
     install:
-      install-weak-deps: false
+      install-weak-deps: true
       packages:
         # Basics
         - openrgb-udev-rules
@@ -123,6 +124,9 @@ modules:
         - bazaar
         - vicinae
         - cliphist
+        # DMS
+        - dms
+        - dms-greeter
         # Styling
         - darkman
         - gnu-free-mono-fonts
