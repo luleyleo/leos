@@ -59,6 +59,20 @@ modules:
     repos:
       copr:
         - yalter/niri-git
+    install:
+      install-weak-deps: false
+      packages:
+        - repo: copr:copr.fedorainfracloud.org:yalter:niri-git
+          packages:
+            - niri
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-keyring
+
+  - type: dnf
+    repos:
+      copr:
+        - yalter/niri-git
         - errornointernet/quickshell
         - scottames/ghostty
         - dulikiles/vicinae
@@ -72,11 +86,13 @@ modules:
         - openssl
         - cryfs
         - chezmoi
-        # Terminal
+        # Terminals
         - kitty
         - ghostty
+        # Shells
         - zsh
         - nu
+        # Modern Terminal Tools
         - ripgrep
         - lsd
         - bat
@@ -97,12 +113,7 @@ modules:
         - nautilus-python
         - python3-dbus
         # Niri
-        - niri
-        - xdg-desktop-portal-gtk
-        - xdg-desktop-portal-gnome
-        - gnome-keyring
         - xrdb
-        - xwayland-satellite
         - mate-polkit
         - brightnessctl
         - greetd-selinux
