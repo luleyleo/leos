@@ -60,7 +60,7 @@ modules:
       install-weak-deps: false
       packages:
         - libseat
-        - xwayland-satelite
+        - xwayland-satellite
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - gnome-keyring
