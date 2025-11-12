@@ -83,7 +83,7 @@ modules:
         - avengemedia/dms
         - errornointernet/quickshell
         - scottames/ghostty
-        - dulikiles/vicinae
+        - scottames/vicinae
         - alternateved/cliphist
         - ublue-os/packages # for bazaar
     install:
