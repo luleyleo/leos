@@ -80,7 +80,6 @@ modules:
     repos:
       copr:
         - yalter/niri-git
-        - avengemedia/dms
         - errornointernet/quickshell
         - scottames/ghostty
         - scottames/vicinae
@@ -131,9 +130,6 @@ modules:
         - bazaar
         - vicinae
         - cliphist
-        # DMS
-        - dms
-        - dms-greeter
         # Styling
         - darkman
         - gnu-free-mono-fonts
