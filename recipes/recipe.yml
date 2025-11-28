@@ -84,6 +84,7 @@ modules:
         - scottames/ghostty
         - scottames/vicinae
         - alternateved/cliphist
+        - dejan/lazygit
         - ublue-os/packages # for bazaar
     install:
       install-weak-deps: true
@@ -106,6 +107,7 @@ modules:
         - fd-find
         - fzf
         - zoxide
+        - lazygit
         # Neovim
         - neovim
         - tree-sitter-cli
