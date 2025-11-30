@@ -136,6 +136,7 @@ modules:
         # DMS
         - dms
         - dms-greeter
+        - gammastep
         # Styling
         - darkman
         - gnu-free-mono-fonts
