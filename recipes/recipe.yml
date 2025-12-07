@@ -128,6 +128,10 @@ modules:
         - firefox
         - firefox-langpacks
 
+  - type: script
+    scripts:
+      - install-app2unit.sh
+
   - type: copy
     from: build-source-apps
     src: /out/bin/niri-float-sticky
@@ -147,10 +151,6 @@ modules:
       nerd-fonts:
         - FiraCode
         - AdwaitaMono
-
-  - type: script
-    scripts:
-      - install-app2unit.sh
 
   - type: systemd
     system:
