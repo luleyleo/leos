@@ -17,4 +17,4 @@ layout {
   background-color "#000000"
 }
 
-include "outputs.kdl"
+include "/etc/greetd/outputs.kdl"
