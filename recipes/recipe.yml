@@ -133,10 +133,6 @@ modules:
     src: /out/bin/niri-float-sticky
     dest: /usr/bin/
 
-  - type: bling
-    install:
-      - 1password
-
   - type: brew
     nofile-limits: true
     brew-analytics: false
