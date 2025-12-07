@@ -81,11 +81,8 @@ modules:
       copr:
         - yalter/niri
         - avengemedia/dms
-        - errornointernet/quickshell
         - scottames/ghostty
         - scottames/vicinae
-        - alternateved/cliphist
-        - dejan/lazygit
         - ublue-os/packages # for bazaar
     install:
       install-weak-deps: true
@@ -107,17 +104,14 @@ modules:
         # Niri
         - xrdb
         - mate-polkit
-        - brightnessctl
-        - greetd-selinux
-        - greetd
-        - quickshell-git
-        - wlsunset
-        - bazaar
         - vicinae
         # DMS
+        - greetd
+        - greetd-selinux
+        - gammastep
+        - brightnessctl
         - dms
         - dms-greeter
-        - gammastep
         # Clipboard Tools
         - xsel
         - wl-clipboard
@@ -138,6 +132,8 @@ modules:
         # Android
         - kde-connect
         - kde-connect-nautilus
+        # App Store
+        - bazaar
     remove:
       packages:
         - firefox
