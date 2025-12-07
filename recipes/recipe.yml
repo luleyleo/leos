@@ -151,7 +151,6 @@ modules:
   - type: script
     scripts:
       - install-app2unit.sh
-      - install-matugen.sh
 
   - type: systemd
     system:
