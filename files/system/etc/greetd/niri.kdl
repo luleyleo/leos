@@ -4,7 +4,6 @@ hotkey-overlay {
 
 environment {
     DMS_RUN_GREETER "1"
-    DMS_GREET_CFG_DIR "/var/cache/dms-greeter"
 }
 
 gestures {
