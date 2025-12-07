@@ -1,0 +1,20 @@
+hotkey-overlay {
+    skip-at-startup
+}
+
+environment {
+    DMS_RUN_GREETER "1"
+    DMS_GREET_CFG_DIR "/var/cache/dms-greeter"
+}
+
+gestures {
+  hot-corners {
+    off
+  }
+}
+
+layout {
+  background-color "#000000"
+}
+
+include "outputs.kdl"

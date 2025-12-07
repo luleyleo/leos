@@ -152,8 +152,6 @@ modules:
     scripts:
       - install-app2unit.sh
       - install-matugen.sh
-      - install-noctalia-shell.sh
-      - install-noctalia-greet.sh
 
   - type: systemd
     system:
