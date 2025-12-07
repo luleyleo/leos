@@ -101,24 +101,6 @@ modules:
         # Shells
         - zsh
         - nu
-        # Modern Terminal Tools
-        - ripgrep
-        - lsd
-        - bat
-        - fd-find
-        - fzf
-        - zoxide
-        - lazygit
-        # Neovim
-        - neovim
-        - tree-sitter-cli
-        - xsel
-        - wl-clipboard
-        - xclip
-        - inotify-tools
-        - luarocks
-        - nodejs
-        - nodejs-npm
         # Nautilus Plugins
         - nautilus-python
         - python3-dbus
@@ -132,11 +114,14 @@ modules:
         - wlsunset
         - bazaar
         - vicinae
-        - cliphist
         # DMS
         - dms
         - dms-greeter
         - gammastep
+        # Clipboard Tools
+        - xsel
+        - wl-clipboard
+        - cliphist
         # Styling
         - darkman
         - gnu-free-mono-fonts
