@@ -97,6 +97,7 @@ modules:
         - xrdb
         - mate-polkit
         - vicinae
+        - nodejs # required for Vicinae extensions
         # DMS
         - greetd
         - greetd-selinux
