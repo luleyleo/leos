@@ -56,6 +56,12 @@ modules:
           - org.gnome.clocks
 
   - type: dnf
+    group-install:
+      with-optional: true
+      packages:
+        - virtualization
+
+  - type: dnf
     repos:
       copr:
         - yalter/niri
