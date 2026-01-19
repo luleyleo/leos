@@ -115,6 +115,7 @@ modules:
         - xsel
         - wl-clipboard
         - cliphist
+        - wtype
         # Styling
         - darkman
         - gnu-free-mono-fonts
