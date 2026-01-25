@@ -78,7 +78,7 @@ modules:
     repos:
       copr:
         - yalter/niri
-        - avengemedia/dms
+        - avengemedia/dms-git
         - scottames/ghostty
         - scottames/vicinae
         - ublue-os/packages # for bazaar
