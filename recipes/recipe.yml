@@ -127,7 +127,6 @@ modules:
         - sysprof
         # Development
         - flatpak-builder
-        - foundry
         # Android
         - kde-connect
         - kde-connect-nautilus
