@@ -4,7 +4,7 @@ name: leos
 description: This is my personal OS image.
 
 base-image: ghcr.io/ublue-os/bluefin-dx-nvidia-open
-image-version: gts
+image-version: "stable-20260312"
 
 modules:
   - type: files
